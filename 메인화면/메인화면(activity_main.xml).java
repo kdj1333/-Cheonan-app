@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:orientation="vertical">
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="45dp"
+ android:orientation="horizontal"
+ android:weightSum="10">
+ <ImageView
+ android:id="@+id/main_imageView1"
+ android:layout_width="wrap_content"
+ android:layout_height="43dp"
+ android:layout_weight="8"
+ android:contentDescription="@string/StringValue"
+ android:scaleType="fitXY"
+android:visibility="visible"
+ app:srcCompat="@drawable/main01" />
+ <ImageView
+ android:id="@+id/maps_imageView01"
+ android:layout_width="52dp"
+ android:layout_height="43dp"
+ android:layout_weight="2"
+ android:clickable="true"
+ android:contentDescription="@string/StringValue"
+ android:scaleType="fitXY"
+ android:visibility="visible"
+ app:srcCompat="@drawable/main03" />
+ </LinearLayout>
+ <ScrollView
+ android:layout_width="match_parent"
+ android:layout_height="match_parent" >
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:orientation="vertical"
+ >
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:weightSum="2">
+ <ImageView
+ android:id="@+id/Restaurant01"
+ android:layout_width="wrap_content"
+ android:layout_height="151dp"
+ android:layout_marginStart="10dp"
+ android:layout_marginLeft="10dp"
+ android:layout_marginTop="10dp"
+ android:layout_marginEnd="10dp"
+ android:layout_marginBottom="10dp"
+ android:layout_weight="1"
+ android:contentDescription="@string/StringValue"
+ android:scaleType="fitXY"
+ android:clickable="true"
+ app:srcCompat="@drawable/diner01" />
+ <ImageView
+ android:id="@+id/Restaurant02"
+ android:layout_width="wrap_content"
+ android:layout_height="151dp"
+ android:layout_marginStart="10dp"
+android:layout_marginLeft="10dp"
+ android:layout_marginTop="10dp"
+ android:layout_marginEnd="10dp"
+ android:layout_marginBottom="10dp"
+ android:layout_weight="1"
+ android:contentDescription="@string/StringValue"
+ android:scaleType="fitXY"
+ android:clickable="true"
+ app:srcCompat="@drawable/diner02" />
+ </LinearLayout>
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="60dp"
+ android:orientation="horizontal"
+ android:weightSum="2">
+ <TextView
+ android:id="@+id/main_txt01"
+ android:layout_width="4dp"
+ android:layout_height="match_parent"
+ android:layout_marginStart="5dp"
+ android:layout_marginLeft="5dp"
+ android:layout_marginTop="5dp"
+ android:layout_marginEnd="5dp"
+ android:layout_marginBottom="5dp"
+ android:layout_weight="1"
+ android:background="@drawable/main04"
+ android:text="@string/bio"
+ android:inputType="textMultiLine" />
+ <TextView
+ android:id="@+id/main_txt02"
+ android:layout_width="4dp"
+ android:layout_height="match_parent"
+ android:layout_marginStart="5dp"
+ android:layout_marginLeft="5dp"
+ android:layout_marginTop="5dp"
+ android:layout_marginEnd="5dp"
+ android:layout_marginBottom="5dp"
+ android:layout_weight="1"
+ android:background="@drawable/main04"
+ android:text="@string/bio"
+ android:inputType="textMultiLine" />
+ </LinearLayout>
+ <LinearLayout
+ android:layout_width="match_parent"
+android:layout_height="wrap_content"
+ android:weightSum="2">
+ <ImageView
+ android:id="@+id/Restaurant03"
+ android:layout_width="wrap_content"
+ android:layout_height="151dp"
+ android:layout_marginStart="10dp"
+ android:layout_marginLeft="10dp"
+ android:layout_marginTop="10dp"
+ android:layout_marginEnd="10dp"
+ android:layout_marginBottom="10dp"
+ android:layout_weight="1"
+ android:contentDescription="@string/StringValue"
+ android:scaleType="fitXY"
+ android:clickable="true"
+ app:srcCompat="@drawable/diner03" />
+ <ImageView
+ android:id="@+id/Restaurant04"
+ android:layout_width="wrap_content"
+ android:layout_height="151dp"
+ android:layout_marginStart="10dp"
+ android:layout_marginLeft="10dp"
+ android:layout_marginTop="10dp"
+ android:layout_marginEnd="10dp"
+ android:layout_marginBottom="10dp"
+ android:layout_weight="1"
+ android:contentDescription="@string/StringValue"
+ android:scaleType="fitXY"
+ android:clickable="true"
+ app:srcCompat="@drawable/diner04" />
+ </LinearLayout>
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="60dp"
+ android:orientation="horizontal"
+ android:weightSum="2">
+ <TextView
+ android:id="@+id/main_txt03"
+ android:layout_width="4dp"
+ android:layout_height="match_parent"
+ android:layout_marginStart="5dp"
+ android:layout_marginLeft="5dp"
+ android:layout_marginTop="5dp"
+ android:layout_marginEnd="5dp"
+android:layout_marginBottom="5dp"
+ android:layout_weight="1"
+ android:background="@drawable/main04"
+ android:contentDescription="@string/StringValue"
+ android:text="@string/bio"
+ android:inputType="textMultiLine" />
+ <TextView
+ android:id="@+id/main_txt04"
+ android:layout_width="4dp"
+ android:layout_height="match_parent"
+ android:layout_marginStart="5dp"
+ android:layout_marginLeft="5dp"
+ android:layout_marginTop="5dp"
+ android:layout_marginEnd="5dp"
+ android:layout_marginBottom="5dp"
+ android:layout_weight="1"
+ android:background="@drawable/main04"
+ android:contentDescription="@string/StringValue"
+ android:text="@string/bio"
+ android:inputType="textMultiLine" />
+ </LinearLayout>
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:weightSum="2">
+ <ImageView
+ android:id="@+id/Restaurant05"
+ android:layout_width="wrap_content"
+ android:layout_height="151dp"
+ android:layout_marginStart="10dp"
+ android:layout_marginLeft="10dp"
+ android:layout_marginTop="10dp"
+ android:layout_marginEnd="10dp"
+ android:layout_marginBottom="10dp"
+ android:layout_weight="1"
+ android:contentDescription="@string/StringValue"
+ android:scaleType="fitXY"
+ android:clickable="true"
+ app:srcCompat="@drawable/diner05" />
+ <ImageView
+ android:id="@+id/Restaurant06"
+ android:layout_width="wrap_content"
+ android:layout_height="151dp"
+ android:layout_marginStart="10dp"
+android:layout_marginLeft="10dp"
+ android:layout_marginTop="10dp"
+ android:layout_marginEnd="10dp"
+ android:layout_marginBottom="10dp"
+ android:layout_weight="1"
+ android:contentDescription="@string/StringValue"
+ android:scaleType="fitXY"
+ android:clickable="true"
+ app:srcCompat="@drawable/diner06" />
+ </LinearLayout>
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="60dp"
+ android:orientation="horizontal"
+ android:weightSum="2">
+ <TextView
+ android:layout_width="4dp"
+ android:layout_height="match_parent"
+ android:layout_marginStart="5dp"
+ android:layout_marginLeft="5dp"
+ android:layout_marginTop="5dp"
+ android:layout_marginEnd="5dp"
+ android:layout_marginBottom="5dp"
+ android:layout_weight="1"
+ android:background="@drawable/main04"
+ android:contentDescription="@string/StringValue"
+ android:text="천안시 ㅇㅇ동 ㅇㅇ 음식점"
+ android:inputType="textMultiLine" />
+ <TextView
+ android:layout_width="4dp"
+ android:layout_height="match_parent"
+ android:layout_marginStart="5dp"
+ android:layout_marginLeft="5dp"
+ android:layout_marginTop="5dp"
+ android:layout_marginEnd="5dp"
+ android:layout_marginBottom="5dp"
+ android:layout_weight="1"
+ android:background="@drawable/main04"
+ android:contentDescription="@string/StringValue"
+ android:text="천안시 ㅇㅇ동 ㅇㅇ 음식점"
+ android:inputType="textMultiLine" />
+ </LinearLayout>
+ <ImageView
+ android:id="@+id/maps_imageView4"
+android:layout_width="match_parent"
+ android:layout_height="52dp"
+ android:contentDescription="@string/StringValue"
+ android:scaleType="fitXY"
+ android:visibility="visible"
+ app:srcCompat="@drawable/maps03" />
+ </LinearLayout>
+ </ScrollView>
+</LinearLayout>
