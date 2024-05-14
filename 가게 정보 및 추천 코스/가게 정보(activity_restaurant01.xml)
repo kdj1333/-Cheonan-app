@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:orientation="vertical">
+ <LinearLayout
+ android:layout_width="match_parent"
+ android:layout_height="wrap_content"
+ android:orientation="horizontal"
+ android:weightSum="10">
+ <ImageView
+ android:id="@+id/Rest01_iv_back"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_weight="1"
+ android:scaleType="fitXY"
+ app:srcCompat="@drawable/main2_01" />
+ <ImageView
+ android:id="@+id/imageView7"
+ android:layout_width="wrap_content"
+ android:layout_height="match_parent"
+ android:layout_weight="7"
+ android:scaleType="fitXY"
+ app:srcCompat="@drawable/main2_02" />
+ <ImageView
+ android:id="@+id/Rest01_iv_mypage"
+ android:layout_width="wrap_content"
+ android:layout_height="match_parent"
+ android:layout_weight="1"
+ android:scaleType="fitXY"
+ android:clickable="true"
+ app:srcCompat="@drawable/main2_03" />
+ <ImageView
+ android:id="@+id/Rest01_iv_course"
+ android:layout_width="wrap_content"
+ android:layout_height="match_parent"
+ android:layout_weight="1"
+ android:scaleType="fitXY"
+ android:clickable="true"
+ app:srcCompat="@drawable/main2_04" />
+ </LinearLayout>
+ <ImageView
+android:id="@+id/imageView10"
+ android:layout_width="match_parent"
+ android:layout_height="277dp"
+ android:scaleType="fitXY"
+ app:srcCompat="@drawable/diner01" />
+ <TextView
+ android:id="@+id/sample_txt"
+ android:layout_width="match_parent"
+ android:layout_height="69dp"
+ android:layout_marginStart="10dp"
+ android:layout_marginTop="10dp"
+ android:textStyle="bold"
+ android:textSize="30dp"
+ android:text="AA 음식점"
+ android:layout_marginLeft="10dp" />
+ <TextView
+ android:id="@+id/imageView13"
+ android:layout_width="match_parent"
+ android:layout_height="20dp"
+ android:scaleType="fitXY"
+ android:text="가게 위치"
+ android:textStyle="bold"
+ android:background="@drawable/main2_07"
+ android:paddingLeft="10dp" />
+ <ImageView
+ android:id="@+id/imageView11"
+ android:layout_width="match_parent"
+ android:layout_height="129dp"
+ android:scaleType="fitXY"
+ app:srcCompat="@drawable/main2_06" />
+ <ImageView
+ android:id="@+id/imageView14"
+ android:layout_width="match_parent"
+ android:layout_height="20dp"
+ android:scaleType="fitXY"
+ app:srcCompat="@drawable/main2_07" />
+ <ImageView
+ android:id="@+id/Rest01_iv_review"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ app:srcCompat="@drawable/main2_05" />
+</LinearLayout>
